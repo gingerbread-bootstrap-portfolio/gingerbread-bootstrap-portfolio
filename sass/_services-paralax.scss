@@ -1,0 +1,23 @@
+.services {
+  color: black;
+  background: url('../img/pietro-de-grandi-RUPPakds28k-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.box {
+  background: brown;
+}
+.container .service-title,
+.service-text {
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.9); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+
+  padding: 20px;
+  img .background {
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.9); /* Black background with 0.5 opacity */
+  }
+}

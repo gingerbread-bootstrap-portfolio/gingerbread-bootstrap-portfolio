@@ -1,0 +1,38 @@
+nav {
+  .nav-link {
+    color: black;
+    font-size: 24px;
+    margin: 20px;
+    &:hover {
+      color: #cc3300;
+    }
+  }
+  .navbar-brand {
+    transition: transform 0.1s;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  .cart-info {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.6);
+    &:hover {
+      border-color: #cc3300;
+      background: #cc3300;
+      color: antiquewhite;
+    }
+    .cart-info__icon {
+      cursor: pointer;
+    }
+  }
+
+  .toggler-icon {
+    font-size: 30px;
+    color: #cc3300;
+  }
+  .navbar-toggler {
+    outline: none !important;
+  }
+}

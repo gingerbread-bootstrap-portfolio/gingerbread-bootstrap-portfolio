@@ -1,0 +1,25 @@
+/*
+.btn-brown {
+    color: brown;
+    border-color: brown;
+}
+*/
+
+section {
+  .btn-black {
+    color: black;
+    border: 2px solid black;
+    &:hover {
+      border: #cc3300;
+      color: white;
+      background-color: #cc3300;
+    }
+  }
+}
+.store {
+  background: lightslategrey;
+  .search-box {
+    background: #cc3300;
+    color: black;
+  }
+}

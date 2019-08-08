@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css"
+    integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous" />
+  <!-- icons from fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+  <!-- font family -->
+  <link href="https://fonts.googleapis.com/css?family=Amaranth&display=swap" rel="stylesheet">
+  <!-- browser icon -->
+  <link rel="icon" type="image/png" href="./dist/images/1x/gingerbread-logo-alexandra-sfartz.png" />
+  <!-- old css link   -->
+  <link rel="stylesheet" href="./sass/style.css" />
+  <!-- new gulp css link  <link rel="stylesheet" href="./dist/style.css">-->
+  <title>Gingerbread shop alexandra sfartz portfolio</title>
+</head>
+
+<body>
+  <!-- navbar -->
+  <header id="header">
+    <nav class="nav navbar navbar-expand-lg px-4">
+      <a href="" class="navbar-brand">
+        <img src="./dist/images/1x/gingerbread-logo-alexandra-sfartz.png" alt="sweet logo" />
+      </a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar" name="button">
+        <span class="toggler-icon">
+          <i class="fas fa-bars"></i>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav text-capitalize mx-auto">
+          <li class="nav-item active">
+            <a href="#header" class="nav-link">home</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#about" class="nav-link">about us</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#store" class="nav-link">our store</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#services" class="nav-link">services</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#cakes" class="nav-link">order</a>
+          </li>
+        </ul>
+        <div class="nav info-items d-none d-lg-flex">
+          <div class="nav-info align-items-center d-flex justify-content-between mx-lg-5">
+            <span class="info-icon mx-lg-3">
+              <i class="fas fa-phone"></i>
+            </span>
+            <p class="mb-0">07123456789</p>
+          </div>
+          <div id="cart-info" class="nav-info align-items-center cart-info d-flex justify-content-between mx-lg-5">
+            <span class="cart-info__icon mr-lg-3">
+              <i class="fas fa-shopping-cart"> </i>
+            </span>
+            <p class="mb-0 text-capitalize">
+              <span id="item-count">2</span>
+              items - $
+              <span class="item-total">
+                10.49
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- banner-->
+    <div class="container-fluid">
+      <div class="row max-height justify-content-center align-items-center">
+        <div class="col-10 mx-auto banner text-center ">
+          <h1>
+            welcome to <br />
+            <strong class=" banner-title">gingerbread shop</strong>
+          </h1>
+          <a href="" class="btn banner text-uppercase my-2">Taste it!</a>
+        </div>
+      </div>
+    </div>
+    <!-- end banner-->
+    <!-- about-us-->
+    <section class="about py-5" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 mx-auto col-md-6 my-5">
+            <h1 class="display-4 text-capitalize">
+              about <strong class="banner-title">us</strong>
+              <p class="h3 my-4 text-muted w-75">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Dolorem ut nisi pariatur earum necessitatibus, nesciunt
+                molestiae laborum, tempora, quibusdam autem vel rerum. Facere
+                sint quibusdam autem, accusamus totam necessitatibus similique
+                ullam a, corporis, saepe qui architecto pariatur voluptatibus
+                quod magni in. Quia sapiente quam possimus nostrum dolorum
+                porro vitae nihil.
+              </p>
+              <a href="" class="btn btn-outline-secondary text-uppercase">see more</a>
+            </h1>
+          </div>
+          <div class="col-10 mx-auto col-md-6 my-5 align-self-center">
+            <div class="about-img__container">
+              <img src="./dist/images/food-photographer-jennifer-pallian-XI_EJ7mtqZ8-unsplash.jpg" class="img-fluid"
+                alt="gingerbread-shop" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end about-us-->
+    <!-- paralax after our store -->
+    <section id="services" class="services py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 text-center my-3">
+            <img src="./dist/images/1x/gingerbread-logo-alexandra-sfartz.png" alt="gingerbread-shop"
+              class="background" />
+            <h6 class="my-3 service-title">gingerbread</h6>
+            <p class="mx-auto text-left service-text w-75">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. A
+              suscipit natus quisquam hic praesentium aut laborum id animi
+              quam voluptas?
+            </p>
+          </div>
+          <div class="col-md-4 text-center my-3">
+            <img src="./dist/images/1x/gingerbread-logo-alexandra-sfartz.png" alt="gingerbread-shop"
+              class="background" />
+            <h6 class="my-3 service-title">gingerbread</h6>
+            <p class="mx-auto text-left service-text w-75">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. A
+              suscipit natus quisquam hic praesentium aut laborum id animi
+              quam voluptas?
+            </p>
+          </div>
+          <div class="col-md-4 text-center my-3">
+            <img src="./dist/images/1x/gingerbread-logo-alexandra-sfartz.png" alt="gingerbread-shop"
+              class="background" />
+            <h6 class="my-3 service-title">gingerbread</h6>
+            <p class="mx-auto text-left service-text w-75">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. A
+              suscipit natus quisquam hic praesentium aut laborum id animi
+              quam voluptas?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end paralax after our store -->
+  </header>
+  <!-- end of header-->
+  <!-- our sortiments -->
+  <div id="cakes" class="cakes py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-10 mx-auto col-sm-6 text-center">
+          <h1 class="text-capitalize">
+            our <strong class="banner-title">sortiments</strong>
+          </h1>
+          <img src="./dist/images/mark-muhlberger-zen35Y3B834-unsplash.jpg" class="img-thumbnail"
+            alt="gingerbread-shop" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+            accusantium rem consequuntur, sequi nulla veritatis quaerat
+            obcaecati numquam cumque unde.
+          </p>
+          <a href="" class="btn btn-outline-secondary text-uppercase">see more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end our sortiments -->
+  <!-- parallax -->
+  <div class="parallax-2"></div>
+  <!-- end parallax -->
+  <!-- our recipes -->
+  <div id="cakes" class="cakes py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-10 mx-auto col-sm-6 text-center">
+          <h1 class="text-capitalize">
+            our <strong class="banner-title">recipes</strong>
+          </h1>
+          <img src="./dist/images/joanna-kosinska-XmE8bN9AE5I-unsplash.jpg" class="img-thumbnail"
+            alt="gingerbread-shop" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+            accusantium rem consequuntur, sequi nulla veritatis quaerat
+            obcaecati numquam cumque unde. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Ipsam accusantium rem consequuntur,
+            sequi nulla veritatis quaerat obcaecati numquam cumque unde. Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+            accusantium rem consequuntur, sequi nulla veritatis quaerat
+            obcaecati numquam cumque unde.
+          </p>
+          <a href="" class="btn btn-outline-secondary text-uppercase">see more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end our recipes -->
+  <!-- footer -->
+  <footer>
+    <div class="footer">
+      <h1 class="text-capitalize text-center">
+        contact <strong class="banner-title">us</strong>
+      </h1>
+      <h3 class="text-center">Address:</h3>
+      <p class="text-secondary text-center">514 Hayhurst Lane,Southfield</p>
+      <h3 class="text-center">Phone:</h3>
+      <p class="text-secondary text-center">2781 Star Route,Chicago</p>
+      <h3 class="text-center">Store address:</h3>
+      <p class="text-secondary text-center">2781 Star Route,Chicago</p>
+      <!--   <div class="mx-auto col-sm-3 text-center text-white">
+          <h1 class="text-capitalize">
+            contact <strong class="banner-title">us</strong>
+          </h1>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3 text-center">
+              <h3>Address:</h3>
+              <p class="text-secondary">514 Hayhurst Lane,Southfield</p>
+            </div>
+            <div class="col-sm-3 text-center">
+              <h3>Phone:</h3>
+              <p class="text-white">+07123456789</p>
+            </div>
+            <div class="col-sm-3 text-center">
+              <h3>Store address:</h3>
+              <p class="text-secondary">2781 Star Route,Chicago</p>
+            </div>
+          </div>
+      </div>-->
+
+    </div>
+  </footer>
+  <!-- end footer -->
+  <!-- JQUERY & BOOTSRAP -->
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"
+    integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous">
+  </script>
+  <!-- jquery -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+</body>
+
+</html>
